@@ -12,18 +12,6 @@ function App() {
         <h1>JourneyFM</h1>
         <h4>I'm a regular degular guy in his mid 30's, committed to learning how to live again. This is my journey.</h4>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
