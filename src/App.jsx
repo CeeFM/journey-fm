@@ -9,12 +9,8 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <h1>JourneyFM</h1>
+        <h4>I'm a regular degular guy in his mid 30's, committed to learning how to live again. This is my journey.</h4>
       </div>
       <h1>Vite + React</h1>
       <div className="card">
