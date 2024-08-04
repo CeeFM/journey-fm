@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -10,8 +8,11 @@ function App() {
     <>
       <div>
         <h1>JourneyFM</h1>
-        <h4>I'm a regular degular guy in his mid 30's, committed to learning how to live again. This is my journey.</h4>
+        <h4>I'm a regular guy in his mid 30's, committed to learning how to live again. I've decided to document my journey here in a variety of different mediums. Thank you for visiting it!</h4>
       </div>
+      <audio controls>
+        <source src='../assets/118707__teqstudios__perfect.mp3' />
+      </audio>
     </>
   )
 }
