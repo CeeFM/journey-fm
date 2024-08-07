@@ -3,7 +3,6 @@ import '../App.css'
 import song from '../118707__teqstudios__perfect-timing.mp3'
 
 function Home() {
-    const [count, setCount] = useState(0)
 
     return (
         <>
