@@ -52,3 +52,15 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 5rem;
+  
+}

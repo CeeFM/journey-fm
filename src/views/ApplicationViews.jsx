@@ -7,6 +7,7 @@ import AudioProjects from './AudioProjects'
 import CodeProjects from './CodeProjects'
 import Pictures from './Pictures'
 import Nav from './Nav'
+import WordProjects from './WordProjects'
 
 function ApplicationViews() {
 
@@ -25,6 +26,8 @@ function ApplicationViews() {
             <Route path='audio' element={<AudioProjects />} />
             <Route path='code' element={<CodeProjects />} />
             <Route path='pictures' element={<Pictures />} />
+            <Route path='words' element={<WordProjects />} />
+
             </Route>
         </Routes>
     )
