@@ -9,7 +9,7 @@ function Nav() {
     return (
         <>
 
-            <nav class="sticky-top navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
@@ -19,6 +19,7 @@ function Nav() {
                             <li class="nav-item">
                                 <a class="nav-link" href="/audio">Audio</a>
                             </li>
+                            <button>TEST</button>
                             <li class="nav-item">
                                 <a class="nav-link" href="/code">Code</a>
                             </li>
