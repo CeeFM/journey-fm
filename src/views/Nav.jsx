@@ -8,7 +8,7 @@ function Nav() {
 
     return (
         <>
-<div id='fuckinghell'>
+<div id='fuckinghell' className='sticky text-center'>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                     <div class="collapse navbar-collapse" id="navbarNav">

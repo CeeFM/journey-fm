@@ -1,3 +1,7 @@
+* {
+  background-color: #121212;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -76,7 +80,6 @@ html {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Arial', sans-serif;
-  background-color: #121212;
   color: #e0e0e0;
   scroll-behavior: smooth;
 }
@@ -93,7 +96,6 @@ html {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #1f1f1f;
 }
 
 .logo {
@@ -128,7 +130,6 @@ html {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: linear-gradient(to bottom, #1c1c1c, #121212);
   padding: 40px;
 }
 
@@ -163,7 +164,6 @@ html {
 
 /* Footer */
 .footer {
-  background-color: #1f1f1f;
   padding: 20px;
   text-align: center;
 }
@@ -182,4 +182,10 @@ html {
 
 .social-links a:hover {
   color: #e91e63;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
