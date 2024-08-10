@@ -24,7 +24,9 @@
 
 #fuckinghell {
   margin-top: 0rem;
+  margin-left: -9vw;
   margin-bottom: 5rem;
+  text-align: center;
 }
 
 
@@ -61,10 +63,10 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
-nav {
+/* nav {
   display: flex;
   justify-content: center;
-}
+} */
 
 ul {
   list-style-type: none;
@@ -90,13 +92,6 @@ html {
   min-height: 100vh;
 }
 
-/* Navbar */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-}
 
 .logo {
   font-size: 1.5rem;
@@ -109,15 +104,9 @@ html {
   display: flex;
 }
 
-.nav-links li {
-  margin-left: 20px;
-}
 
-.nav-links a {
-  text-decoration: none;
-  color: #e0e0e0;
-  transition: color 0.3s ease;
-}
+
+
 
 .nav-links a:hover {
   color: #e91e63;

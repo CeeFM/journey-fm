@@ -9,24 +9,24 @@ function Nav() {
     return (
         <>
 <div id='fuckinghell' className='sticky text-center'>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <div class="collapse navbar-collapse" id="navbarNav">
+            <nav className="navbar">
+                <div>
+                    <div id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <button class="nav-link active" aria-current="page" href="#">Home</button>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/audio">Audio</a>
+                                <button class="nav-link" href="/audio">Audio</button>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/code">Code</a>
+                                <button class="nav-link" href="/code">Code</button>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/words">Words</a>
+                                <button class="nav-link" href="/words">Words</button>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/pictures">Pictures</a>
+                                <button class="nav-link" href="/pictures">Pictures</button>
                             </li>
                         </ul>
                     </div>
