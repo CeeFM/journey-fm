@@ -14,19 +14,19 @@ function Nav() {
                     <div id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <button class="nav-link active" aria-current="page" href="#">Home</button>
+                                <a class="btn" aria-current="page" href="/">Home</a>
                             </li>
                             <li class="nav-item">
-                                <button class="nav-link" href="/audio">Audio</button>
+                                <a class="btn" href="/audio">Audio</a>
                             </li>
                             <li class="nav-item">
-                                <button class="nav-link" href="/code">Code</button>
+                                <a class="btn" href="/code">Code</a>
                             </li>
                             <li class="nav-item">
-                                <button class="nav-link" href="/words">Words</button>
+                                <a class="btn" href="/words">Words</a>
                             </li>
                             <li class="nav-item">
-                                <button class="nav-link" href="/pictures">Pictures</button>
+                                <a class="btn" href="/pictures">Pictures</a>
                             </li>
                         </ul>
                     </div>
