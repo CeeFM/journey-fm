@@ -5,16 +5,23 @@ import song from '../118707__teqstudios__perfect-timing.mp3'
 function Home() {
 
     return (
-        <>
-            <div className='w-50'>
-                <h1>JourneyFM</h1>
-                <p className='w-50'>I'm a regular guy in his mid 30's, committed to learning how to live again. I've decided to document my journey here in a variety of different mediums. Thank you for visiting it!</p>
-            </div>
-            <audio controls>
-                <source src={song} />
-            </audio>
-        </>
-    )
+        <div className="landing-page">
+            <header className="hero-section">
+                <div className="hero-content">
+                    <h1>Welcome to My World</h1>
+                    <p>I'm a [Your Profession] passionate about [Your Passion].</p>
+                    <a href="#projects" className="cta-button">Explore My Work</a>
+                </div>
+            </header>
+            <footer className="footer">
+                <p>&copy; 2024 MyPortfolio. All Rights Reserved.</p>
+                <div className="social-links">
+                    <a href="#linkedin">LinkedIn</a>
+                    <a href="#github">GitHub</a>
+                    <a href="#twitter">Twitter</a>
+                </div>
+            </footer>
+        </div>    )
 }
 
 export default Home
