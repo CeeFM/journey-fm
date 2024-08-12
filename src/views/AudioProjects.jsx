@@ -6,14 +6,29 @@ function AudioProjects() {
 
     return (
         <>
-            <div className='w-50'>
-                <h1>Audio</h1>
-                <p className='w-50'>Here's where you can find all of the audio projects I've added so far</p>
-            </div>
-            <p>Adding more text</p>
-            <audio controls>
-                <source src={song} />
-            </audio>
+
+            <div className="landing-page">
+                <header className="hero-section">
+                    <div className='w-75'>
+                        <h1>Audio</h1>
+                        <p className='w-50'>Here's where you can find all of the audio projects I've added so far</p>
+                    </div>
+                    <br />
+                    <div>
+                    <audio controls>
+                        <source src={song} />
+                    </audio>
+                    </div>  
+                </header>
+                <footer className="footer">
+                    <p>&copy; 2024 MyPortfolio. All Rights Reserved.</p>
+                    <div className="social-links">
+                        <a href="#linkedin">LinkedIn</a>
+                        <a href="#github">GitHub</a>
+                        <a href="#twitter">Twitter</a>
+                    </div>
+                </footer>
+            </div>  
         </>
     )
 }
