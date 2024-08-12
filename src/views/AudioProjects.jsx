@@ -10,6 +10,7 @@ function AudioProjects() {
                 <h1>Audio</h1>
                 <p className='w-50'>Here's where you can find all of the audio projects I've added so far</p>
             </div>
+            <p>Adding more text</p>
             <audio controls>
                 <source src={song} />
             </audio>
