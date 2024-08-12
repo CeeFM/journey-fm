@@ -12,6 +12,9 @@ function Pictures() {
             <div>
                 Keep in mind I never said I was any good at taking pictures, but nevertheless, I like to take them.
             </div>
+            <div>
+                <img />
+            </div>
         </>
     )
 }
