@@ -13,6 +13,11 @@ function WordProjects() {
             <h2>
                 My messy life, a story in endless parts
             </h2>
+            <div>August 12th, 2024
+
+                I've been delaying it for a while and now I'm painted into a corner, looking down the barrel of it. Not ready, not wanting, but no other option
+                My life has to change in big ways and it has to start changing now. Or else. Even if the or else feels comfortable or safe or any of that. It's not.
+            </div>
         </>
     )
 }
