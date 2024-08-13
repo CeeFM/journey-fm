@@ -12,21 +12,21 @@ function Nav() {
             <nav className="navbar">
                 <div>
                     <div id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="btn" aria-current="page" href="/">Home</a>
+                        <ul className="navbar-nav">
+                            <li className="nav-item">
+                                <a className="btn" aria-current="page" href="/">Home</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="btn" href="/audio">Audio</a>
+                            <li className="nav-item">
+                                <a className="btn" href="/audio">Audio</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="btn" href="/code">Code</a>
+                            <li className="nav-item">
+                                <a className="btn" href="/code">Code</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="btn" href="/words">Words</a>
+                            <li className="nav-item">
+                                <a className="btn" href="/words">Words</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="btn" href="/pictures">Pictures</a>
+                            <li className="nav-item">
+                                <a className="btn" href="/pictures">Pictures</a>
                             </li>
                         </ul>
                     </div>

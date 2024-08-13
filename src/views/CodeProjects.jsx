@@ -6,7 +6,7 @@ function CodeProjects() {
 
     return (
         <>
-            <div className='w-25' style={{"margin-top": '25vh', "width": "100%"}}>
+            <div className='w-25' style={{"marginTop": '25vh', "width": "100%"}}>
                 <h1>Code</h1>
                 <p className='w-25'>Here's where you can find all of the code projects I've added so far</p>
             </div>
