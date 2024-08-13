@@ -5,7 +5,7 @@ function Pictures() {
 
     return (
         <>
-            <div className='w-50'>
+            <div className='w-25' style={{ "margin-top": '25vh', "width": "100%" }}>
                 <h1>Pictures</h1>
                 <p className='w-50'>Here's where you can find all of the pictures I've added so far</p>
             </div>

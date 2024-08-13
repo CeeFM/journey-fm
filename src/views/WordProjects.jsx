@@ -6,10 +6,11 @@ function WordProjects() {
 
     return (
         <>
-            <div className='w-50'>
+            <div className='w-25' style={{ "margin-top": '25vh', "width": "100%" }}>
                 <h1>Words</h1>
                 <p className='w-50'>Here's where you can find all of the written projects I've added so far.</p>
             </div>
+            
             <h2>
                 My messy life, a story in endless parts
             </h2>
